@@ -1,36 +1,46 @@
 
 
 \subsection{Distros}
-\begin{frame}
-\frametitle{Was ist eine Dist.?}
-Betrieben von Community/Firmen.
-Kümmern sich um: 
+\begin{frame}{Distribution?}{Was ist das?}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+Betrieben von: \note{kernel- nicht alleine nutzbar\\}
+\begin{itemize}
+ \item Community
+ \item Firmen
+\end{itemize}
+Kümmern sich um: \note{passende Softwar zusammenstellen\\} \note{Fehler beheben, Änderungen vorhnehmen (mint, ubuntu, unity)\\}
 \begin{itemize}
  \item Pakete
  \item Änderungen/Patches
  \item Hilfe/Support
 \end{itemize}
  
-\end{frame}
+ \end{column}
+\begin{column}{0.4\textwidth}
+ \begin{figure}
+ \includegraphics[height=0.5\textheight]{resources/movers-24402_640.png}
+ \end{figure}
+\end{column}
+\end{columns}
+ \end{frame}
 
-\begin{frame}
- \frametitle{Vorkommen}
+\begin{frame}{Distribution}{in:}
 
- 
- \begin{itemize}
-  \item Raspian/Kodi/..
-  \item Android/Sailfish
-  \item Alpine/TinyCore/CoreOS
-  \item viele embedded Geräte mit speziell angepasstem Linux
+ % Michael: Die distros alle wirklich aufzählen?
+ \begin{description}
+  \item [Pi] Raspian/Kodi/..
+  \item [Phone] Android/Sailfish
+  \item [Container] Alpine/TinyCore/CoreOS
+  \item [Und:] viele embedded Geräte mit speziell angepasstem Linux
  (wie Router, Steuergeräte, Mediengeräte)
- \end{itemize}
+ \end{description}
 
 \end{frame}
 
 
 
-\begin{frame}
-\frametitle{Bsp. Distros}
+\begin{frame}{Distribution!}{Zum Beispiel:}
 \begin{itemize}%[<+->]
 \item Debian
 \item Ubuntu
@@ -40,7 +50,6 @@ Kümmern sich um:
 \item RHEL/Fedora/CentOS 
 \item gentoo
 \item Puppy/Knoppix 
-
 \item Kali 
 
 \end{itemize}
@@ -49,49 +58,41 @@ Kümmern sich um:
 \subsection{Oberflächen}
 \begin{frame}
 \frametitle{Oberflächen}
-
-\begin{multicols}{2}
-\onslide<1->{\begin{figure}
- \includegraphics[width=0.45\textwidth]{resources/window-selection.png}
-%\footnote{https://www.gnome.org/wp-content/uploads/2016/03/window-selection-3.20-420x236.png}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\onslide<1->{
+\note{Gnome3\\}
+\begin{figure}
+ \includegraphics[height=0.32\textheight]{resources/640px-GNOME_Shell.png}
  \end{figure}
 }
 \onslide<2->{
-
+\note{unity\\}
 \begin{figure}
- \includegraphics[width=0.45\textwidth]{resources/general-desktop.png}
-\end{figure}
-%\footnote{https://www.kde.org/workspaces/plasmadesktop/screenshots/general-desktop.png}
+ \includegraphics[height=0.32\textheight]{resources/640px-App_Lens_on_Ubuntu.png}
+ \end{figure}
 }
 
-
-\only<1>{Gnome}
-\only<2>{KDE: Plasma}
-\only<3>{Unity (Ubuntu)}
-\onslide<4>{\begin{figure}
-  \includegraphics[width=0.45\textwidth]{resources/I3_window_manager_screenshot.png} %Nammensnennung!!
-  %footnote{https://de.wikipedia.org/wiki/I3_(Fenstermanager)#/media/File:I3_window_manager_screenshot.png}
-  \end{figure}
-  
-  \onslide<3->{\begin{figure}
-  \includegraphics[width=0.45\textwidth]{resources/App_Lens_on_Ubuntu_16.png}
- %\footnote{https://en.wikipedia.org/wiki/Unity_(user_interface)#/media/File:App_Lens_on_Ubuntu_16.04LTS.png}
-\end{figure}}
+\end{column}
+\begin{column}{0.5\textwidth}
+\onslide<3->{
+\note{KDE/Plasma\\}
+\begin{figure}
+ \includegraphics[height=0.32\textheight]{resources/640px-Kscreen-krunner.png}
+ \end{figure}
 }
-
-%\begin{itemize}
-%\item Gnome3
-%\item KDE
-%\item mate
-%\item Konsole
-%\end{itemize}
-
-\end{multicols}
-
+\onslide<4->{
+\note{I3, kachelbasierter Windowmanager\\}
+\begin{figure}
+ \includegraphics[height=0.32\textheight]{resources/640px-i3.jpg}
+ \end{figure}
+}
+\end{column}
+\end{columns}
 \end{frame}
 
 
-\subsection{Programme}
+\subsection{Programme}{Für den Desktop}
 \begin{frame}[allowframebreaks]
  \frametitle{Programme}
  %\begin{tabular}{lp{5cm}}
@@ -111,7 +112,7 @@ Kümmern sich um:
 
  \item [VoIP] Mumble, Ring, Tox
 
- \item [Synchronisation] Nextcloud, Owncloud, Seafile
+ \item [Synchronisation] {\bf Nextcloud}, Owncloud, Seafile
 \pagebreak 
  \item [IDEs] {\bf Eclipse}, IntelliJ, NetBeans, Atom, VI(M)
 
