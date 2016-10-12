@@ -1,21 +1,80 @@
 
 
-\subsection{Distros}
-\begin{frame}{Distribution?}{Was ist das?}
-\begin{columns}
+
+
+
+\subsection{Software}
+
+\begin{frame}[allowframebreaks]{Software}{Für Desktop}
+ 
+
+\hspace{1cm}
+
+\begin{description}[style=nextline]
+ 
+ \item [Browser] {\bf Firefox}, Chromium, Vivaldi, Opera, Tor
+  \item [\small statt] Edge, Explorer
+ \item [Office] {\bf LibreOffice}, Kile (\LaTeX), \TeX maker
+  \item [\small statt] MS Office (365)
+ \item [Email Clients] {\bf Thunderbird}, Icedove, Evolution 
+  \item [\small statt] Outlook
+\pagebreak 
+ \item [IDEs] {\bf Eclipse}, IntelliJ, NetBeans, Atom, VI(M)
+  \item [\small statt] Visual Studio
+ \item [Medien]{\bf VLC}, Audacity, Rythmbox, Totem
+\item [\small statt] \textit{altem} Windows Media Player
+ \item [Grafik] {\bf GIMP}, Blender,  Inkscape
+  \item [\small statt] Photoshop, Illustrator, etc.
+ \item [alles] DAS TERMINAL 
+
+\end{description}
+ \end{frame}
+
+
+ \begin{frame}{Software}{Wie bekomme ich die?}
+
+  \begin{columns}
+  \begin{column}{0.3\textwidth}
+ \begin{figure}
+ \includegraphics[height=0.5\textheight]{resources/garbage-296550_1280.png}
+ \end{figure}
+\end{column}
 \begin{column}{0.6\textwidth}
-Betrieben von: \note{kernel- nicht alleine nutzbar\\}
+ \begin{center}
+   \textbf{\large{ Paketverwaltung}}
+ \end{center}
+
+  \begin{itemize}
+   \item Einfache Installation \note{globle liste der Software\\}
+   \item Kein Balast \note{damit euer Rechner nicht im Müll versinkt\\}
+   \item AppStore, PlayStore   \note{wegen seiner genialität inzwischen bei Apple, Google Play, Appstore..\\}
+   \item Angepasst \note{ uuund von wem?...  Das machen die Distros, den es gibt verschiedne Repos.. natürlich..}
+  \end{itemize}
+
+  \end{column}
+  \end{columns}
+ \end{frame}
+
+ 
+
+
+
+\subsection{Distros}
+\begin{frame}{Distributionen?}{Was ist das?}
+\begin{columns}
+\begin{column}{0.45\textwidth}
+
+Kümmern sich um: \note{passende Software zusammenstellen\\} \note{Fehler beheben, Änderungen vorhnehmen (mint, ubuntu, unity)\\}
+\begin{itemize}
+ \item Software $\longrightarrow$ Pakete
+ \item Änderungen/Patches
+ \item Hilfe/Support \note{und mit Support kann man Geld verdienen\\}
+\end{itemize}
+ Betrieben von: \note{kernel- nicht alleine nutzbar\\}
 \begin{itemize}
  \item Community
  \item Firmen
 \end{itemize}
-Kümmern sich um: \note{passende Softwar zusammenstellen\\} \note{Fehler beheben, Änderungen vorhnehmen (mint, ubuntu, unity)\\}
-\begin{itemize}
- \item Pakete
- \item Änderungen/Patches
- \item Hilfe/Support
-\end{itemize}
- 
  \end{column}
 \begin{column}{0.4\textwidth}
  \begin{figure}
@@ -27,84 +86,73 @@ Kümmern sich um: \note{passende Softwar zusammenstellen\\} \note{Fehler beheben
 
 
 
-\begin{frame}{Distribution!}{Zum Beispiel:}
-\begin{itemize}%[<+->]
-\item Debian
-\item Ubuntu
-\item Mint
-\item Arch
-\item openSuse
-\item RHEL/Fedora/CentOS 
-\item gentoo
-\item Puppy/Knoppix 
-\item Kali 
+\begin{frame}{Distributionen!}{Zum Beispiel:}
+\note{Mint, OpenSuse, ubuntu, Fedora\\}
+\note{alle direkt benutzbar}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{resources/640px-Linux_Mint_logo_and_wordmark}
+\end{figure}
 
-\end{itemize}
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{resources/640px-OpenSUSE_Logo}
+\end{figure}
+
+ \end{column}
+\begin{column}{0.5\textwidth}
+
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{resources/640px-Ubuntu_logo}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{resources/640px-Fedora_logo_and_wordmark}
+\end{figure}
+
+\end{column}
+\end{columns}
 \end{frame}
 
 \subsection{Oberflächen}
-\begin{frame}
-\frametitle{Oberflächen}
-
+\begin{frame}{Oberflächen}{Gnome}
+\note{komplett tauschbare Oberflächen/DEs}
 \note{Gnome3\\}
 \begin{figure}
- \includegraphics[height=0.7\textheight]{resources/1200px-GNOME_Shell.png}
+ \includegraphics[height=0.6\textheight]{resources/1200px-GNOME_Shell.png}
  \end{figure}
 
 \end{frame}
-\begin{frame}
+\begin{frame}{Oberflächen}{Unity}
 
 \note{unity\\}
 \begin{figure}
- \includegraphics[height=0.7\textheight]{resources/1200px-App_Lens_on_Ubuntu.png}
+ \includegraphics[height=0.6\textheight]{resources/1200px-App_Lens_on_Ubuntu.png}
  \end{figure}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Oberflächen}{KDE}
 
 \note{KDE/Plasma\\}
 \begin{figure}
- \includegraphics[height=0.7\textheight]{resources/1200px-Kscreen-krunner.png}
+ \includegraphics[height=0.6\textheight]{resources/1200px-Kscreen-krunner.png}
+ \end{figure}
+
+
+\end{frame}
+
+\begin{frame}{Oberflächen}{Cinnamon}
+\note{Cinnamon/Mint\\}
+\begin{figure}
+ \includegraphics[height=0.6\textheight]{resources/1200px-Linux_Mint.png}
  \end{figure}
 
 
 \end{frame}
 
 
-%\subsection{Programme}
-\begin{frame}[allowframebreaks]{Programme}{Für Desktop}
  
- %\begin{tabular}{lp{5cm}}
- %Kategorie& Software \\ \hline
- 
-\hspace{1cm}
 
-\begin{description}[style=nextline]
-
- \item [Browser] {\bf Firefox}, Chromium, Vivaldi, Opera, Tor
-
- \item [Office] {\bf LibreOffice}, Kile (\LaTeX), \TeX maker
-
- \item [Email Clients] {\bf Thunderbird}, Icedove, Evolution 
-
- \item [Synchronisation] {\bf Nextcloud}, Owncloud, Seafile
-\pagebreak 
- \item [IDEs] {\bf Eclipse}, IntelliJ, NetBeans, Atom, VI(M)
-
- \item [Medien]{\bf VLC}, Audacity, Rythmbox, Totem
-
- \item [Grafik] {\bf GIMP}, Blender,  Inkscape
-
- \item [alles] DAS TERMINAL 
-
-\end{description}
- \end{frame}
-
- 
- \begin{frame}{Software}{Wie bekomme ich die?}
-  Paket repos 
-  \note{wegen seiner genialität inzwischen bei Apple, Google Play, Appstore..}
- \end{frame}
 
 
 
