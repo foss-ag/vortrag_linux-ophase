@@ -17,7 +17,15 @@
 \usepackage{hyperref} % für korrekte Links
 
 %Einbinden des Themes
-\input{../Latex_Template/beamerthemeFOSSAG.sty}
+\usetheme{metropolis}
+
+\definecolor{FOSSAGgreen}{HTML}{0AA06F}
+\definecolor{FOSSAGgreenDarker}{HTML}{097A56}
+\definecolor{FOSSAGalert}{HTML}{FF8A8B}
+
+\setbeamercolor{frametitle}{fg=black!2, bg=FOSSAGgreen}
+\setbeamercolor{progress bar}{fg=FOSSAGalert, bg=FOSSAGalert!50!black!30}
+
 
 %Standard Angaben
 \title{Die FOSS-AG}
@@ -30,10 +38,9 @@
 
 %-----IMPLEMENTATION-----
 \begin{document}
-
-\begin{frame}
-	\titlepage
-\end{frame}
+	\begin{frame}
+		\titlepage
+	\end{frame}
 
 \section{Die FOSS-AG}
 
