@@ -1,0 +1,64 @@
+\documentclass[12pt,utf8]{beamer}
+
+% Gute Einführung zu LaTeX-Beamer: http://www2.informatik.hu-berlin.de/~mischulz/beamer.html
+
+%-----PARAMETERS-----
+
+%Wichtige Standard Pakete!
+%\usepackage[german]{babel}
+\usepackage{ngerman}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+%Für den Header notwendig!
+%\usepackage[percent]{overpic}
+
+\usepackage{hyperref} % für korrekte Links
+
+%Einbinden des Themes
+\input{design_latex-template/beamerthemeFOSSAG.sty}
+
+
+%Standard Angaben
+\title{Linux Days Dortmund 2017}
+\subtitle{Einführung}
+
+\author{Alexander Becker}
+\institute[FOSS AG]{\textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware \textbf{AG}}
+
+\date{\today}
+
+%-----IMPLEMENTATION-----
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+\begin{frame}{Inhaltsverzeichnis}
+\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Die FOSS-AG}
+\input{Einleitung.tex}
+
+%//end of section "Einleitung"
+
+\section{Open Source und Linux}
+\input{Theorie.tex}
+
+%\\end of section "Theorie"
+
+\section{Linux in der Praxis}
+\input{Praxis.tex}
+
+%\\end of section "Praxis"
+
+\section{Quellen}
+\input{Schluss.tex}
+
+%\\end of section "Schluß"
+
+
+
+\end{document}
