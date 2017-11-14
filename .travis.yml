@@ -1,7 +1,7 @@
 # Using the container-based Ubuntu 14.04 Trusty setup
 script:
   - cd .
-  - latexmk -pdf -f -latexoption="--interaction=nonstopmode"
+  - latexmk -pdf -f -latexoption="--interaction=nonstopmode" Main.tex
 deploy:
   skip_cleanup: true
   provider: script
