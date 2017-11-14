@@ -10,4 +10,4 @@ deploy:
     - curl --user "foss-ag_buildbot:$PDFPW" -T *.pdf https://cloud.foss-ag.de/remote.php/webdav/foss-ag_buildbot/
 addons:
   apt:
-    packages: [texlive, latexmk, latex-beamer]
+    packages: [texlive-full, latexmk]
