@@ -1,6 +1,7 @@
 ## Notizen O-Phasen, SoSe17:
 
 Präsentation vorher Testen!
+
 Mit allen Absprechen, die den Laptop mit nutzen wollen. Auf jeden Fall rechtzeitig abklemmen!
 Wechsel der Einzelenen Vortagenden besser planen.
 
