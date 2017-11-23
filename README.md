@@ -51,7 +51,7 @@ Wechsel der Einzelenen Vortagenden besser planen.
 | Synchronisation | Nextcloud, Owncloud, Seafile |
 | DAS | TERMINAL |
 
-## Schluß (Call to action)
+## Schluss (Call to action)
 * Installparty
     * Voraussetzungen
 * Helpdesk bewerben
