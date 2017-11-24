@@ -4,7 +4,7 @@ script:
   - cd .
   - latexmk -pdf -f -latexoption="--interaction=nonstopmode" Main.tex
 after_success:
-  - mv Main.pdf vortrag_linux-ophase.pdf
+  - mv Main.pdf vortrag_linux-ophase${TRAVIS_BRANCH}.pdf
 deploy:
   skip_cleanup: true
   provider: script
