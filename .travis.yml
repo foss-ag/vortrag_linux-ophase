@@ -1,5 +1,5 @@
 # Using the container-based Ubuntu 14.04 Trusty setup
-language: generic
+language: shell
 script:
   - cd .
   - latexmk -pdf -f -latexoption="--interaction=nonstopmode" Main.tex
