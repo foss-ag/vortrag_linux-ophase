@@ -4,11 +4,11 @@ script:
   - cd .
   - latexmk -pdf -f -latexoption="--interaction=nonstopmode" Main.tex
 after_success:
-  - mv Main.pdf vortrag_linux-ophase-${TRAVIS_BRANCH}.pdf
+  - mv Main.pdf vortrag_linux-ophase.pdf
 deploy:
   skip_cleanup: true
   provider: script
-  script: curl --user "foss-ag_buildbot:$PDFPW" -T *.pdf https://cloud.foss-ag.de/remote.php/webdav/foss-ag_buildbot/
+  script: wget https://raw.githubusercontent.com/foss-ag/script_deploy-artifact/master/deploy-artifact.sh ; sh deploy-artifact.sh *.pdf
 addons:
   apt:
     packages: [texlive, latexmk, latex-beamer, texlive-lang-german]
