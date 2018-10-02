@@ -1,11 +1,3 @@
-## Notizen O-Phasen, SoSe17:
-
-Vorher Testen!
-Mit allen Absprechen, die den Laptop mit nutzen wollen. Auf jeden Fall rechtzeitig abklemmen!
-Wechsel der Einzelenen Vortagenden besser planen.
-
-
-
 # Linux Vortrag für die OPhase
 ## Einleitung  
 * FOSS AG vorstellen
@@ -54,6 +46,12 @@ Wechsel der Einzelenen Vortagenden besser planen.
 * Installparty
     * Voraussetzungen
 * Helpdesk bewerben
+
+### How to build
+1. `git submodule init`
+1. `git submodule update`
+1. `<latex-compiler> AG_Vorstellung.tex`
+
 
 ### Quellenangabe?
 
