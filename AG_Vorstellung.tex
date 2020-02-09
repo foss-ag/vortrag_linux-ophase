@@ -1,0 +1,45 @@
+\documentclass[12pt,utf8]{beamer}
+
+% Gute Einführung zu LaTeX-Beamer: http://www2.informatik.hu-berlin.de/~mischulz/beamer.html
+
+%-----PARAMETERS-----
+
+%Wichtige Standard Pakete!
+%\usepackage[german]{babel}
+\usepackage{ngerman}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+%Für den Header notwendig!
+%\usepackage[percent]{overpic}
+
+\usepackage{hyperref} % für korrekte Links
+
+%Einbinden des Themes
+\input{design_latex-template/beamerthemeFOSSAG.sty}
+
+
+%Standard Angaben
+\title{
+	FOSS-AG
+	\hspace*{5cm}
+	\includegraphics[scale=0.2]{resources/logo_500px.png}
+}
+\subtitle{Vorstellung}
+\institute[FOSS AG]{\textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware \textbf{AG}}
+\author{@avahenriette}
+
+\date{04. Oktober 2018}
+
+%-----IMPLEMENTATION-----
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+\input{AG_Vorstellung_Einleitung.tex}
+\input{AG_Vorstellung_Theorie.tex}
+\input{AG_Vorstellung_Schluss.tex}
+
+\end{document}

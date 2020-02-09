@@ -14,65 +14,76 @@
 %Für den Header notwendig!
 %\usepackage[percent]{overpic}
 
-
 \usepackage{hyperref} % für korrekte Links
 
 %Einbinden des Themes
-\input{beamerthemeTU.sty}
+\input{design_latex-template/beamerthemeFOSSAG.sty}
+
 
 %Standard Angaben
-\title{Die FOSS-AG}
-\subtitle{Was machen die eigentlich?}
-
-\author[J.-M. Lenk, C. Parnitzke, J. Schneider]{Jan-Marius Lenk, Christoph Parnitzke, Josef Schneider}
-\institute[FOSS AG]{Free and Open Source Software AG\\ Fakultät für Informatik}
+\title{
+	\hspace*{8cm}
+	\includegraphics[scale=0.2]{resources/logo_500px.png}
+	\newline
+	FOSS-AG
+}
+\subtitle{Vorstellung}
+%\author{@chef\_excellence}
+\institute[FOSS AG]{\textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware \textbf{AG}}
 
 \date{\today}
 
 %-----IMPLEMENTATION-----
-
 \begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
 
-\begin{frame}
-	\titlepage
-\end{frame}
+\section{Fest im Programm / Aktuelles}
+	\begin{frame}
+		\frametitle{Fest im Programm / Aktuelles}
+		
+			wöchentliches Treffen\\
+			tba, OH 12 - 4.037
+	\end{frame}
 
-\section{Die FOSS-AG}
+	\begin{frame}
+		\frametitle{Fest im Programm / Aktuelles}
+		\begin{itemize}
+			\item Linux-Installationspartys
+			\item Unterstützung der O-Phase
+			\item Vortragsreihen zu FOSS
+			\item Zusammenarbeit mit lokalen Hackspaces
+			\item Raspberry Pi Schulprojekt
+			\item Unterstützung des LinuxLounge Podcasts
+		\end{itemize}
+	\end{frame}
 
-\begin{frame}{Inhaltsverzeichnis}
-	\tableofcontents[currentsection, hideallsubsections]
-\end{frame}
+\section{Geplant für dieses Semester}
+	\begin{frame}
+		\frametitle{Geplant für dieses Semester}
+		\begin{itemize}
+			\item Hackathon
+%			\item Raspberry Pi Schulprojekt
+%			\item Linux Days Dortmund 2018
+%			\item Hack'n'Snack
+%				\begin{itemize}
+%					\item April: Tensorflow Workshop
+%				\end{itemize}
+%			\item Beteiligung am Sommerfest
+%			\item Stand beim Gemeingütertag (6.7. / 7.7.) in der Pauluskirche 
+		\end{itemize}
+	\end{frame}
 
-\input{Einleitung.tex}
-
-%//end of section "Einleitung"
-
-\section{Open Source und Linux}
-
-\begin{frame}{Inhaltsverzeichnis}
-	\tableofcontents[currentsection, hideallsubsections]
-\end{frame}
-
-\input{Theorie.tex}
-
-%\\end of section "Theorie"
-
-\section{Linux in der Praxis}
-
-\begin{frame}{Inhaltsverzeichnis}
-	\tableofcontents[currentsection, hideallsubsections]
-\end{frame}
-
-\input{Praxis.tex}
-
-%\\end of section "Praxis"
-
-\section{Termine}
-
-\input{Schluss.tex}
-
-%\\end of section "Schluß"
-
-
+\section{Weitere Infos}
+	\begin{frame}
+		\frametitle{Weitere Infos}
+		\begin{itemize}
+			\item https://foss-ag.de
+			\item https://hackandsnack.de
+			\item Telegram: @FOSSAG
+			\item Twitter: @FOSSAGTUDO	
+		\end{itemize}
+	\end{frame}
 
 \end{document}
